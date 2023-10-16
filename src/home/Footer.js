@@ -3,10 +3,10 @@ import "./Footer.css";
 
 export default function Footer(){
 return (
-    <>
-    <div className="footer">
+    <footer className="footer">
+    <div >
         <p>All copyrights reserved.</p>
     </div>
-    </>
+    </footer>
 )
 };

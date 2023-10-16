@@ -3,7 +3,8 @@ import "./Introduction.css";
 
 export default function Introduction() {
   return (
-    <div className="intro">
+    <main className="intro">
+    <div className="column">
       <h3>Hey there! I'm Devina</h3>
       <div>
         <p>I'm a Software Developer located in Seattle, Washington.</p>
@@ -42,5 +43,9 @@ export default function Introduction() {
         </p>
       </div>
     </div>
+    <div className="column">
+      <img src= "../images/profile-image.jpg" alt="Devina posing at a lake in Norway" width="400"/>
+    </div>
+    </main>
   );
 }
