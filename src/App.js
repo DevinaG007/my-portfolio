@@ -5,6 +5,7 @@ import Header from "./home/Header";
 import Footer from "./home/Footer";
 import About from "./about/About";
 import Projects from "./projects/Projects";
+import Contact from "./contact/Contact";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
       </Route>
       <Route path="/projects">
         <Projects/>
+      </Route>
+      <Route path="/contact">
+        <Contact/>
       </Route>
       </Switch>
       <Footer />

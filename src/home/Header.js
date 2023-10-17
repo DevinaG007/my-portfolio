@@ -1,18 +1,24 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
 import "./Header.css";
 
 export default function Header() {
+  const history = useHistory();
+
+  function handleClick(event){
+    event.preventDefault();
+    history.push("/")
+  }
   return (
     <>
       <div className="header">
-        <h1 className="headings">Devina Gillis</h1>
+        <h1 className="headings" onClick={handleClick}>Devina Gillis</h1>
         <div className="nav">
           <h2 className="headings">Software Engineer</h2>
           <div className="navigation">
-            <p className="navLinks">About Me</p>
-            <p className="navLinks">Projects</p>
-            <p className="navLinks">Contact</p>
+            <NavLink to ="/about" className="navLinks">About Me</NavLink>
+            <NavLink to="/projects" className="navLinks">Projects</NavLink>
+            <NavLink to="/contact" className="navLinks">Contact</NavLink>
           </div>
         </div>
       </div>
