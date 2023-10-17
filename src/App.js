@@ -3,6 +3,8 @@ import { Route, Switch } from "react-router-dom";
 import Introduction from "./home/Introduction";
 import Header from "./home/Header";
 import Footer from "./home/Footer";
+import About from "./about/About";
+import Projects from "./projects/Projects";
 import "./App.css";
 
 function App() {
@@ -10,8 +12,14 @@ function App() {
     <>
     <Header />
     <Switch>
-    <Route path="/">
+    <Route exact path="/">
       <Introduction />
+      </Route>
+      <Route path="/about">
+        <About />
+      </Route>
+      <Route path="/projects">
+        <Projects/>
       </Route>
       </Switch>
       <Footer />

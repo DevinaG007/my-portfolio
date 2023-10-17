@@ -10,7 +10,7 @@ export default function Header() {
         <div className="nav">
           <h2 className="headings">Software Engineer</h2>
           <div className="navigation">
-            <p className="navLinks">Home</p>
+            <p className="navLinks">About Me</p>
             <p className="navLinks">Projects</p>
             <p className="navLinks">Contact</p>
           </div>

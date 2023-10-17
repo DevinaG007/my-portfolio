@@ -4,8 +4,8 @@ import "./Footer.css";
 export default function Footer(){
 return (
     <footer className="footer">
-    <div >
-        <p>All copyrights reserved.</p>
+    <div>
+        <p className="text">All copyrights reserved.</p>
     </div>
     </footer>
 )
