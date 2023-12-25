@@ -1,11 +1,20 @@
 const projects = [
     {
-        "Name": "Flashcard App",
-        "Link": "www.onetwothree.com",
-        "Technologies":"React, JavaScript, Bootstrap, CSS5",
-        "Completion Date": "09/2023",
-        "Description":"React component structure, styling and routing.",
+        "name": "Flashcard App",
+        "link": "www.onetwothree.com",
+        "technologies":"React, JavaScript, Bootstrap, CSS5",
+        "completion_date": "09/2023",
+        "description":"React component structure, styling and routing.",
+        "image_url":""
+    },
+    {
+        "name": "Restaurant Reservation System",
+        "link": "https://restaurant-reservations-xxdy.onrender.com/",
+        "technologies":"React, JavaScript, CSS, Node.js, Express, PostgreSQL",
+        "completion_date": "09/2023",
+        "description":"React component structure, styling and routing.",
+        "image_url":""
     },
 ]
 
-module.exports = projects;
+export default projects;
