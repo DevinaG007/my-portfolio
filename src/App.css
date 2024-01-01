@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalnia&family=Noto+Sans+Osmanya&family=Quicksand&family=Raleway:wght@100&family=Zen+Dots&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Indie+Flower&family=Quicksand&family=Raleway:wght@100&family=Zen+Dots&display=swap');
 .App {
   text-align: center;
 }
@@ -49,3 +51,4 @@ main {
   display: flex;
   flex-direction: column;
 }
+
