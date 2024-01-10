@@ -1,6 +1,5 @@
 import React from "react";
 import "./Introduction.css";
-import  profile from "../images/profile-image.jpg";
 
 export default function Introduction() {
   return (
