@@ -2,11 +2,12 @@
     background-color: black;
     color: white;
     font-size: 13px;
-    margin-bottom: 0px;
+    margin-bottom: auto;
     margin-top: auto;
     padding: 15px 15px 15px 0px;
 }
 
 .text {
     padding-left: 20px;
+    font-size: 13px;
 }
