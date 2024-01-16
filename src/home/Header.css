@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Indie+Flower&family=Quicksand&family=Raleway:wght@100&family=Zen+Dots&display=swap');
 
 .headings {
-    padding: 0px 0px 0px 20px;
+    padding: 20px 0px 0px 20px;
     color: white;
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 80px;
     font-family: "Bungee Outline";
+    margin: 0px;
 }
 
-h1:hover {
-    color: lightseagreen;
+.headings:hover {
+    color: #00EAFF;
 }
 
 .header {
@@ -47,7 +48,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: lightseagreen;
+    color:#00EAFF;
 }
 
 

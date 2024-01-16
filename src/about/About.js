@@ -5,25 +5,12 @@ import  bratislava from "../images/bratislava.jpg"
 export default function About(){
 return (
     <section className="about">
-    <div className="col">
+    <div className="col about-me">
         <h2>Hey there! I'm Devina</h2>
+        <b>
     <p>I'm a Software Developer located in Seattle, Washington.</p>
-    <p>As both an artist and a frequent traveler, I'm passionate about:</p>
-    <ul>
-      <li>Writing code that develops unique and creative things</li>
-      <li>
-        Lifelong learning and discovering new things about Web Developing.
-      </li>
-      <li>
-        Exploring as much of the world as I can. Some of my favorite
-        countries that I've visited include:
-      </li>
-      <ol>
-        <li>Japan</li>
-        <li>Switzerland</li>
-        <li>Norway</li>
-      </ol>
-    </ul>
+    <p>As both an artist and a frequent traveler, I'm passionate about writing code that develops unique and creative things.</p>
+    <p>Exploring as much of the world as I can. Some of my favorite countries that I've visited include Japan, Switzerland, and Norway.</p>
     <br />
     <p>
       Currently, I work at Whole Foods Market, but my passion has always been traveling.
@@ -41,9 +28,11 @@ return (
       I'm always ready for a challenge! If you would like to collaborate,
       please contact me.
     </p>
+    </b>
   </div>
   <div className="col">
     <img src={bratislava} width="500" alt="Devina sitting atop a castle in Bratislava."/>
+    <p style={{"font-size":16}}>Devina at Bratislava Castle in Bratislava, Slovakia</p>
   </div>
   </section>
 )

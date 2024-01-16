@@ -1,17 +1,25 @@
 import React from "react";
 import "./Introduction.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+
 
 export default function Introduction() {
   return (
     <main className="intro">
     <div className="desc">
-      <h2>Hey there! I'm Devina</h2>
-      <h2>I'm a Full-Stack Software Engineer</h2>
-      <p>I use JavaScript, Node, React, Express and SQL to develop scalable web applications.</p>
+      <h1>Devina Gillis</h1>
+      <h2>Full-Stack Software Engineer</h2>
+      <div>
+        <a href="https://www.linkedin.com/in/devina-gillis/">
+      <FontAwesomeIcon className="icon" icon={faLinkedin} size="2x"/>
+      </a>
+      <a href="https://www.github.com/DevinaG007/">
+      <FontAwesomeIcon className="icon" icon={faGithubSquare} size="2x" />
+      </a>
+      </div>
     </div>
-    {/* <div className="column">
-      <img src={profile} alt="Devina posing at a lake in Norway"/>
-    </div> */}
     </main>
   );
 }
