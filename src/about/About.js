@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import  bratislava from "../images/bratislava.jpg"
+import  profile from "../images/profile-image.jpg"
 
 export default function About(){
 return (
@@ -19,9 +19,9 @@ return (
       website.
     </p>
     <p>
-      As a student for Thinkful, I have the opportunity to work in a field
+      As a Full-Stack Software Engineer, I have the opportunity to work in a field
       that gives me the flexibility to travel the world, while also doing
-      work that I love.
+      work that I love. Technologies that I've used include: JavaScript, React, CSS, HTML, Node.JS, Express, SQL and PostgreSQL.
     </p>
     <p>
       I'm always ready for a challenge! If you would like to collaborate,
@@ -30,8 +30,8 @@ return (
     </b>
   </div>
   <div className="col">
-    <img src={bratislava} width="500" alt="Devina sitting atop a castle in Bratislava."/>
-    <p style={{"font-size":16}}>Devina at Bratislava Castle in Bratislava, Slovakia</p>
+    <img src={profile} width="500" alt="Devina sitting atop a castle in Bratislava."/>
+    <p style={{"font-size":16}}>Devina in Tromso, Norway</p>
   </div>
   </section>
 )
