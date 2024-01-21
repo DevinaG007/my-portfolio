@@ -1,3 +1,6 @@
-li {
-  list-style: none;  
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalnia&family=Noto+Sans+Osmanya&family=Quicksand&family=Raleway:wght@100&family=Zen+Dots&display=swap");
+
+
+h2 {
+    margin-left: 10px;
 }

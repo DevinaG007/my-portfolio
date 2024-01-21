@@ -11,7 +11,6 @@ return (
     <p>I'm a Software Developer located in Seattle, Washington.</p>
     <p>As both an artist and a frequent traveler, I'm passionate about writing code that develops unique and creative things.</p>
     <p>I'm also exploring as much of the world as I can. Some of my favorite countries that I've visited include Japan, Switzerland, and Norway.</p>
-    <br />
     <p>
       Currently, I work at Whole Foods Market, but my passion has always been traveling.
       Last year I left for 3 months to travel through Europe and a couple of
