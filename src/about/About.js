@@ -30,7 +30,7 @@ return (
     </b>
   </div>
   <div className="col">
-    <img src={profile} width="500" alt="Devina sitting atop a castle in Bratislava."/>
+    <img src={profile} width="500" alt="Devina standing at a beach in Tromso, Norway."/>
     <p style={{"font-size":16}}>Devina in Tromso, Norway</p>
   </div>
   </section>

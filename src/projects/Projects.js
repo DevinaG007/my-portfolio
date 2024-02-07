@@ -17,7 +17,7 @@ export default function Projects(){
         <main>
             <section className="projects">
         <h2>Projects</h2>
-        <ul>
+        <ul className="proj-list">
         {projectList}
         </ul>
         </section>
