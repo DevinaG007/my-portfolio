@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalnia&family=Noto+Sans+Osmanya&family=Quicksand&family=Raleway:wght@100&family=Zen+Dots&display=swap");
 
-.intro {
+.intro, .technologies {
     display: flex;
     flex-direction: row;
     padding: 20px;
@@ -27,6 +27,11 @@
     animation: transitionIn 2.5s;
     /* transition-duration: 2s;
     opacity: 0; */
+}
+
+.technologies {
+    color: #00EAFF;
+    margin-bottom: 20px;
 }
 
 .icon {
