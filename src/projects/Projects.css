@@ -46,3 +46,12 @@ h4 {
 }
 
 
+@media (max-width: 400px){
+    .project-images {
+        max-width: 85%;
+    }
+    .description {
+        max-width: 90%;
+        text-align: center;
+    }
+}
