@@ -10,6 +10,14 @@ const projects = [
         "image_url":"reservation-dashboard"
     },
     {
+        "name": "Moodscape",
+        "link": "https://health-tracker-ov9u.onrender.com/",
+        "technologies":"React, JavaScript, Node.js, Express, PostgreSQL, TailwindCSS, DaisyUI",
+        "completion_date": "02/2024",
+        "description":"Web application to provide burnt out employees an easy solution to manage stress and track their mood. Upon completing a daily survey, user receives a personalized list of coping strategies based on their stressors. Collaborative project completed for a hackathon.",
+        "image_url":"moodscape-strategies"
+    },
+    {
         "name": "We Love Movies App",
         "link": "https://we-love-movies-61rs.onrender.com/",
         "technologies":"JavaScript, Node.js, Express, PostgreSQL",
